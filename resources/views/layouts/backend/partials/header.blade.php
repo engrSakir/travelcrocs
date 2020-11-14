@@ -16,6 +16,9 @@
 
         <ul class="navbar-nav align-items-center right-nav-link">
             <li class="nav-item">
+                <a href="{{ url('/') }}" target="_blank" class="btn-social btn-social-circle btn-outline-tumblr waves-effect waves-light m-1"><i class="fa fa-eye"></i></a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
                     <span class="user-profile"><img src="{{ asset('assets/backend/images/avatars/avatar-17.png') }}" class="img-circle" alt="user avatar"></span>
                 </a>
