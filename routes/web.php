@@ -18,13 +18,14 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('backend.dashboard.index');
+    return redirect()->route('backend.dashboard.index');
 })->name('home');
 
 Auth::routes();
 
 Route::group(['namespace' => 'Backend', 'as' => 'backend.', 'prefix'=>'backend'], function (){
     Route::resource('dashboard', 'DashboardController')->except(['create','store', 'show', 'edit', 'update', 'destroy']);
+
 });
 
 

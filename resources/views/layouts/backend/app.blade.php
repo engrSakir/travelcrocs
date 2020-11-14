@@ -23,9 +23,14 @@
 
     <div class="clearfix"></div>
 
-    <!--Start content-wrapper-->
-     @yield('content')
-    <!--End content-wrapper-->
+     <div class="content-wrapper">
+         <div class="container-fluid">
+        <!--Start content-wrapper-->
+         @yield('content')
+        <!--End content-wrapper-->
+         </div>
+         <!-- End container-fluid-->
+     </div><!--End content-wrapper-->
 
    <!--Start Back To Top Button-->
     <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
