@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
@@ -36,5 +38,39 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+
+
+    //Over write login post
+    public function login(Request $request)
+    {
+        $this->validateLogin($request);
+
+        if ($this->hasTooManyLoginAttempts($request)) {
+            $this->fireLockoutEvent($request);
+            return $this->sendLockoutResponse($request);
+        }
+
+        if($this->guard()->validate($this->credentials($request))) {
+            if(Auth::attempt(['email' => $request->email, 'password' => $request->password, 'status' => 1])) {
+                return response()->json([
+                    'type' => 'success',
+                    'message' => 'Successfully login.',
+                    'url' => route('backend.dashboard.index'),
+                ]);
+            }  else {
+                $this->incrementLoginAttempts($request);
+                return response()->json([
+                    'type' => 'info',
+                    'message' => 'This account is not activated.',
+                ]);
+            }
+        } else {
+            $this->incrementLoginAttempts($request);
+            return response()->json([
+                'type' => 'danger',
+                'message' => 'Credentials do not match our database.',
+            ]);
+        }
     }
 }
