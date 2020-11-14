@@ -13,11 +13,6 @@
             </a>
         </li>
         <li>
-            <a href="{{ route('backend.language.index') }}" class="waves-effect">
-                <i class="icon-home"></i> <span>Languages</span>
-            </a>
-        </li>
-        <li>
             <a href="#" class="waves-effect">
                 <i class="icon-home"></i> <span>Setting</span>
             </a>
