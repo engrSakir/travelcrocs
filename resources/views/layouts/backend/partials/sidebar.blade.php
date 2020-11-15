@@ -13,7 +13,7 @@
             </a>
         </li>
         <li>
-            <a href="#" class="waves-effect">
+            <a href="{{ route('backend.setting.index') }}" class="waves-effect">
                 <i class="icon-home"></i> <span>Setting</span>
             </a>
         </li>

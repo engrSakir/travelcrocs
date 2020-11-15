@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    {{ translate('Good morning') }}
                 </div>
 
                 <div class="links">

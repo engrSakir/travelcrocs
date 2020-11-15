@@ -25,6 +25,7 @@ Auth::routes();
 
 Route::group(['namespace' => 'Backend', 'as' => 'backend.', 'prefix'=>'backend'], function (){
     Route::resource('dashboard', 'DashboardController')->except(['create','store', 'show', 'edit', 'update', 'destroy']);
+    Route::resource('setting', 'SettingController')->except(['create','store', 'show', 'edit', 'update', 'destroy']);
 
 });
 
