@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9269001e-80e8-42ca-a8e1-b90669ddf561" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/travelcrocs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/travelcrocs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +143,8 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/joedixon/laravel-translation" />
       <path value="$PROJECT_DIR$/vendor/stichoza/google-translate-php" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-translatable" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kGNqD24lD43uJeGjWMPEbmrCVb" />
@@ -182,6 +189,7 @@
       <workItem from="1605454017112" duration="6206000" />
       <workItem from="1605492056817" duration="2651000" />
       <workItem from="1605582515122" duration="1358000" />
+      <workItem from="1605587524920" duration="423000" />
     </task>
     <servers />
   </component>
@@ -209,6 +217,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/-1366.305.1366.738@0.0.1920.1050" timestamp="1605346425646" />
+    <state x="736" y="437" width="447" height="265" key="ComposerInitDialogKey" timestamp="1605587939614">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="736" y="437" width="447" height="265" key="ComposerInitDialogKey/0.0.1920.1050/-1366.305.1366.738@0.0.1920.1050" timestamp="1605587939614" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1605464239222">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
