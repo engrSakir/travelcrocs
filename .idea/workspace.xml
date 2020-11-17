@@ -20,19 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9269001e-80e8-42ca-a8e1-b90669ddf561" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/SettingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/SettingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/translation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/LanguageSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/LanguageSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/setting/partials/mail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/setting/partials/mail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/setting/partials/system.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/setting/partials/system.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +181,7 @@
       <workItem from="1605416493676" duration="3640000" />
       <workItem from="1605454017112" duration="6206000" />
       <workItem from="1605492056817" duration="2651000" />
-      <workItem from="1605582515122" duration="574000" />
+      <workItem from="1605582515122" duration="1358000" />
     </task>
     <servers />
   </component>
