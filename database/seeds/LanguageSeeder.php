@@ -21,12 +21,14 @@ class LanguageSeeder extends Seeder
 
         DB::table('languages')->insert([
             'name' => 'বাংলা',
-            'language' => 'bd',
+            'code' => 'bd',
+            'flag' => 'no_image.png',
         ]);
 
         DB::table('languages')->insert([
-            'name' => 'Hindi',
-            'language' => 'hin',
+            'name' => 'English',
+            'code' => 'en',
+            'flag' => 'no_image.png',
         ]);
     }
 }

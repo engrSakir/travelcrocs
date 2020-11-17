@@ -14,8 +14,7 @@ if (!function_exists('random_code')){
     }
 
     function translate($text){
-        $tr = new GoogleTranslate($text, Session::get('language'));
-        return $tr->translate($text);
+
     }
 }
 

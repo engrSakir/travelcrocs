@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
+use App\Language;
 use App\Local;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -14,7 +15,7 @@ class SettingController extends Controller
      */
     public function index()
     {
-        $languages = DB::table('languages')->orderBy('id', 'desc')->get();
+        $languages = Language::orderBy('id', 'desc')->get();
         return view('backend.setting.index', compact('languages'));
     }
 

@@ -1,3 +1,6 @@
+@push('head')
+    <link rel="stylesheet" href="{{ asset('assets/backend/plugins/summernote/dist/summernote-bs4.css') }}"/>
+@endpush
 <div class="row">
     <div class="col-lg-12">
         <div class="card">
@@ -42,16 +45,24 @@
                     <div class="form-group row">
                         <label for="input-9" class="col-sm-2 col-form-label">Footer credit</label>
                         <div class="col-sm-10">
-                            <textarea class="form-control" rows="4" id="input-9"></textarea>
+                            <textarea id="summernoteEditor"></textarea>
                         </div>
                     </div>
                     <div class="form-footer">
                         <button type="submit" class="btn btn-danger shadow-danger m-1"><i class="fa fa-times"></i> CANCEL</button>
                         <button type="submit" class="btn btn-success shadow-success m-1"><i class="fa fa-check-square-o"></i> SAVE</button>
                     </div>
-
                 </form>
             </div>
         </div>
     </div>
 </div>
+@push('foot')
+    <script src="{{ asset('assets/backend/plugins/summernote/dist/summernote-bs4.min.js') }}"></script>
+    <script>
+        $('#summernoteEditor').summernote({
+            height: 100,
+            tabsize: 2
+        });
+    </script>
+@endpush
